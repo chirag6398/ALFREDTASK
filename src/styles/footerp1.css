@@ -4,6 +4,7 @@
   height: 80px;
   align-items: center;
   justify-content: space-evenly;
+  background-color: #f2f2f2;
   padding: 0px 150px 0px 150px;
 }
 .footer__container > span {

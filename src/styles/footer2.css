@@ -1,0 +1,28 @@
+.footer2__container {
+  display: flex;
+  width: 100vw;
+  align-items: center;
+  justify-content: center;
+  min-height: 80px;
+  /* margin-bottom: 20px; */
+  padding: 10px 0px 60px 0px;
+}
+.footer2__content {
+  width: 701px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.footer2__content > button {
+  border: none;
+  background-color: transparent;
+  min-width: 48px;
+  height: 70px;
+  font-size: 15px;
+  color: gray;
+  font-weight: 800;
+  opacity: 0.7;
+}
+.footer2__content > button:hover {
+  color: #1cb0f6;
+}

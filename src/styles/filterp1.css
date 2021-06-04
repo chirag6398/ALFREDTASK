@@ -3,6 +3,8 @@
   align-items: center;
   justify-content: center;
   flex: 1;
+  padding-top: 30px;
+  background-color: #f2f2f2;
   height: 177px;
 }
 .filter__1 {
