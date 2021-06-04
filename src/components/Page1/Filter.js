@@ -1,5 +1,5 @@
 import React from "react";
-import "../../styles/filterp1.css";
+import "../../assets/styles/page1styles/filter.css";
 import "../../../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import DropdownButton from "react-bootstrap/DropdownButton";
 import Dropdown from "react-bootstrap/Dropdown";

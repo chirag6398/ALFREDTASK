@@ -1,9 +1,9 @@
 import React from "react";
-import "../../styles/aboutp2.css";
-import img1 from "../../assets/images/PersenP2.svg";
+import "../../assets/styles/page2styles/about.css";
+import img1 from "../../assets/images/Persen1.svg";
 import img2 from "../../assets/images/FunImgP2.svg";
-import img3 from "../../assets/images/Persen2P2.svg";
-import img4 from "../../assets/images/Persen3P2.svg";
+import img3 from "../../assets/images/Persen2.svg";
+import img4 from "../../assets/images/Persen3.svg";
 export default function About() {
   return (
     <div className="about__container">

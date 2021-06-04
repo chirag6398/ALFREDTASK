@@ -1,5 +1,5 @@
 import React from "react";
-import "../../styles/sliderp1.css";
+import "../../assets/styles/page1styles/slider.css";
 import "../../../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import Carousel from "react-bootstrap/Carousel";
 import CardDeck from "react-bootstrap/CardDeck";
@@ -21,13 +21,13 @@ export default function Slider({ title, subTitle, cardData }) {
           <div className="slider__heading_right"></div>
         </div>
         <div className="slider__sliderCards">
-          <Carousel>
+          <Carousel interval={null}>
             <Carousel.Item>
               <CardDeck>
                 {cardData.map((val, index) => {
                   if (index >= 0 && index <= 3) {
                     return (
-                      <div className="card">
+                      <div key={index} className="card">
                         <div className="flag__img"></div>
                         <div className="flag__img__small"></div>
                         <h3>{val.title}</h3>
@@ -60,7 +60,7 @@ export default function Slider({ title, subTitle, cardData }) {
                 {cardData.map((val, index) => {
                   if (index >= 4 && index <= 7) {
                     return (
-                      <div className="card">
+                      <div key={index} className="card">
                         <div className="flag__img"></div>
                         <div className="flag__img__small"></div>
                         <h3>{val.title}</h3>
@@ -93,7 +93,7 @@ export default function Slider({ title, subTitle, cardData }) {
                 {cardData.map((val, index) => {
                   if (index >= 8 && index <= 11) {
                     return (
-                      <div className="card">
+                      <div key={index} className="card">
                         <div className="flag__img"></div>
                         <div className="flag__img__small"></div>
                         <h3>{val.title}</h3>

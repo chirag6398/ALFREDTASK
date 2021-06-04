@@ -1,5 +1,5 @@
 import React from "react";
-import "../../styles/main.css";
+import "../../assets/styles/page3styles/main.css";
 import { AiOutlineDown } from "react-icons/ai";
 import { GiUsaFlag } from "react-icons/gi";
 export default function Main() {

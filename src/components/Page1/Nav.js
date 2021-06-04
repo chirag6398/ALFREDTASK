@@ -1,5 +1,5 @@
 import React from "react";
-import "../../styles/navp1.css";
+import "../../assets/styles/page1styles/nav.css";
 import logo from "../../assets/images/incubator-logo.svg";
 export default function Nav() {
   return (

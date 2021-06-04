@@ -1,5 +1,5 @@
 import React from "react";
-import "../../styles/bannerp1.css";
+import "../../assets/styles/page1styles/banner.css";
 export default function Banner() {
   return (
     <div className="banner__container">

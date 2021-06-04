@@ -1,16 +1,30 @@
 import React from "react";
-import "../../styles/footer2.css";
+import { useHistory } from "react-router-dom";
+import "../../assets/styles/page2styles/footer.css";
 export default function Footer() {
+  const history = useHistory();
   return (
     <div className="footer2__container">
       <div className="footer2__content">
-        <button>ABOUT</button>
+        <button
+          onClick={() => {
+            history.push("/page2");
+          }}
+        >
+          ABOUT
+        </button>
         <button>BLOG</button>
         <button>SCHOOLS</button>
         <button>APPS</button>
         <button>HELP</button>
         <button>GUIDELINES</button>
-        <button>CAREERS</button>
+        <button
+          onClick={() => {
+            history.push("/page3");
+          }}
+        >
+          CAREERS
+        </button>
         <button>TERMS</button>
         <button>PRIVACY</button>
       </div>

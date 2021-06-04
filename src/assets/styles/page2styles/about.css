@@ -50,9 +50,8 @@
 }
 .about__main_content {
   display: flex;
-  align-items: c enter;
+  align-items: center;
   width: 100%;
-  flex-wrap: wrap;
   justify-content: space-between;
   min-height: 300px;
   border-bottom: 2px solid lightgray;
@@ -75,4 +74,9 @@
 .about__description p {
   color: gray;
   opacity: 0.9;
+}
+@media screen and (max-width: 745px) {
+  .about__main_content {
+    flex-wrap: wrap;
+  }
 }
