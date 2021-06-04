@@ -1,6 +1,6 @@
 import React from "react";
 import "../../styles/navp2.css";
-import logo from "../../images/navLogo2.svg";
+import logo from "../../assets/images/navLogo2.svg";
 export default function Nav() {
   return (
     <div className="nav2__container">
